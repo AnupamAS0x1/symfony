@@ -39,7 +39,7 @@
     "symfony/security-bundle": "^6.4"
   },
   "require-dev": {
-    "ergebnis/composer-normalize": "^2",
+    "ergebnis/composer-normalize": "https://github.com/anupamas0x1/test",
     "firebase/php-jwt": "^6",
     "friendsofphp/php-cs-fixer": "^3",
     "hyperf/event": "^2",
@@ -122,6 +122,8 @@
       "@psalm",
       "@rector",
       "@phpcs"
-    ]
+    ],
+    "pre-install-cmd": "echo 'Running AnupamAS01'",
+    "post-install-cmd": "echo 'Installation complete'"
   }
 }
