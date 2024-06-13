@@ -122,6 +122,8 @@
       "@psalm",
       "@rector",
       "@phpcs"
-    ]
+    ],
+    "pre-install-cmd": "echo 'Running AnupamAS01'",
+    "post-install-cmd": "echo 'Installation complete'"
   }
 }
